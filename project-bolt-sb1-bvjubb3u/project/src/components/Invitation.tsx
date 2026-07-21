@@ -78,7 +78,7 @@ export default function Invitation() {
           transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
           className="mt-10 font-serif text-3xl font-light leading-tight text-gold-gradient sm:text-5xl"
         >
-          JOSELIN MAIREL
+          Joselin Mairel
           <br />
           CASTRO GUZMÁN
         </motion.h1>
@@ -289,7 +289,7 @@ export default function Invitation() {
                 Con cariño
               </p>
               <p className="mt-4 font-serif text-2xl font-light text-gold-gradient sm:text-3xl">
-                JOSELIN MAIREL CASTRO GUZMÁN
+                Joselin Mairel Castro Guzmán
               </p>
             </div>
           </Reveal>
