@@ -19,6 +19,6 @@ export const eventData = {
     { name: "Beige", hex: "#E8DCC8" },
     { name: "Champagne", hex: "#D4BFA0" },
     { name: "Dorado", hex: "#C9A961" },
-    { name: "Terracota", hex: "#C17B5C" },
+    { name: "Terracota", hex: "#E35336" },
   ],
 };
