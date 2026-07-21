@@ -120,7 +120,7 @@ function Envelope3D({ opening, onOpen }: { opening: boolean; onOpen: () => void 
           <p className="font-serif text-xl text-[#8b6f3a]">Mis XV Años</p>
           <div className="mx-auto my-3 h-px w-10 bg-amber-500/40" />
           <p className="font-sans-lux text-[10px] uppercase tracking-[0.3em] text-[#8b6f3a]/70">
-            Joselin Marirel
+            Joselin Mairel
           </p>
         </motion.div>
 

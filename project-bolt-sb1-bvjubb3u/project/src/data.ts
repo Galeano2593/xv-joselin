@@ -1,5 +1,5 @@
 export const eventData = {
-  quinceaneraName: "Joselin Marirel",
+  quinceaneraName: "Joselin Mairel",
   quinceaneraFullName: "JOSELIN MAIREL CASTRO GUZMÁN",
   eventDate: "2026-12-12T19:30:00",
   eventDateLabel: "12 de Diciembre de 2026",
@@ -8,7 +8,7 @@ export const eventData = {
   mapLink: "https://maps.app.goo.gl/Cp2J4dgHj5WAKBnu5",
   whatsappNumber: "3185627161", // Agregar número aquí, ej: 521234567890
   whatsappMessage:
-    "¡Hola! Soy ___ y confirmo mi asistencia a los XV años de Joselin Marirel. Seremos ___ personas.",
+    "¡Hola! Soy ___ y confirmo mi asistencia a los XV años de Joselin Mairel. Seremos ___ personas.",
   slideshow: [
     "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1200",
