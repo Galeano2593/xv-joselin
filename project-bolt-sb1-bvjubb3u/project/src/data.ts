@@ -6,7 +6,7 @@ export const eventData = {
   eventTime: "7:30 PM",
   venueName: "Eventos y Banquetes Templo Imperial Medellín",
   mapLink: "https://maps.app.goo.gl/Cp2J4dgHj5WAKBnu5",
-  whatsappNumber: "3185627161", // Agregar número aquí, ej: 521234567890
+  whatsappNumber: "3246591351", //Agregar número aquí
   whatsappMessage:
     "¡Hola! Soy ___ y confirmo mi asistencia a los XV años de Joselin Mairel. Seremos ___ personas.",
   slideshow: [
