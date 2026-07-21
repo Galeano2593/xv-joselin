@@ -80,7 +80,7 @@ export default function Invitation() {
         >
           Joselin Mairel
           <br />
-          CASTRO GUZMÁN
+          Castro Guzmán
         </motion.h1>
       </Section>
 
