@@ -25,7 +25,7 @@ export default function RSVP() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!attending) {
-      alert("Por favor confirma tu asistencia");
+      alert("Por favor confirma tu asistencia antes del 15/09/2026");
       return;
     }
     buildWhatsAppLink();

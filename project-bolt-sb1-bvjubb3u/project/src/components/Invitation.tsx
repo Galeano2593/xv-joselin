@@ -247,7 +247,7 @@ export default function Invitation() {
             Confirmación
           </h2>
           <p className="mt-3 font-sans-lux text-xs uppercase tracking-[0.25em] text-amber-200/50">
-            Por favor confirma tu asistencia
+            Por favor confirma tu asistencia antes del 15/09/2026
           </p>
         </Reveal>
         <div className="mt-10">
