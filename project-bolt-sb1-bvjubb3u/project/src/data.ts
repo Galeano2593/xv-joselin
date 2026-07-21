@@ -1,6 +1,6 @@
 export const eventData = {
   quinceaneraName: "Joselin Marirel",
-  quinceaneraFullName: "JOSELIN MARIREL CASTRO GUZMÁN",
+  quinceaneraFullName: "JOSELIN MAIREL CASTRO GUZMÁN",
   eventDate: "2026-12-12T19:30:00",
   eventDateLabel: "12 de Diciembre de 2026",
   eventTime: "7:30 PM",
