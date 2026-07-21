@@ -11,7 +11,7 @@ export default function RSVP() {
 
   const buildWhatsAppLink = () => {
     const status = attending === "yes" ? "Sí asistiré" : "No podré asistir";
-    const msg = `¡Hola! Soy ${name || "[tu nombre]"}. ${status} a los XV años de Joselin Marirel. ${
+    const msg = `¡Hola! Soy ${name || "[tu nombre]"}. ${status} a los XV años de Joselin Mairel. ${
       attending === "yes" ? `Seremos ${guests} persona(s).` : ""
     }`;
     const number = eventData.whatsappNumber;
