@@ -1,7 +1,7 @@
 export const eventData = {
   quinceaneraName: "Joselin Mairel",
   quinceaneraFullName: "Joselin Mairel Castro Guzmán",
-  eventDate: "2026-12-12T19:30:00",
+  eventDate: "2026-10-11T19:30:00",
   eventDateLabel: "15 de Octubre de 2026",
   eventTime: "7:30 PM",
   venueName: "Eventos y Banquetes Templo Imperial Medellín",
