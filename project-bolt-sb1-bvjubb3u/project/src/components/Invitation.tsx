@@ -1,4 +1,3 @@
-import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import {
   Clock,
@@ -43,18 +42,6 @@ function Section({
 }
 
 export default function Invitation() {
-  const audioRef = useRef<HTMLAudioElement | null>(null);
-
-  useEffect(() => {
-    // Al montarse la vista de la invitación (tras abrir la tarjeta), reproducimos la música
-    if (audioRef.current) {
-      audioRef.current.volume = 0.8; // Ajusta el volumen entre 0.0 y 1.0 si lo deseas
-      audioRef.current.play().catch((err) => {
-        console.log("Auto-play prevenido por el navegador:", err);
-      });
-    }
-  }, []);
-
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -62,9 +49,6 @@ export default function Invitation() {
       transition={{ duration: 1 }}
       className="relative min-h-screen bg-[#0f0d0a]"
     >
-      {/* Reproductor invisible de fondo */}
-      <audio ref={audioRef} src="/chiquitita.mp3" preload="auto" loop />
-
       <GoldenParticles density={40} />
 
       {/* PRESENTACIÓN */}
