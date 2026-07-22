@@ -67,7 +67,7 @@ export default function RSVP() {
             </span>
             <button
               type="button"
-              onClick={() => setGuests((g) => Math.min(10, g + 1))}
+              onClick={() => setGuests((g) => Math.min(5, g + 1))}
               className="h-10 w-10 rounded-full border border-amber-300/30 text-amber-200 transition hover:bg-amber-300/10"
             >
               +
