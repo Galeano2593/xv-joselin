@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import {
+  Calendar,
   Clock,
   MapPin,
   Shirt,
@@ -113,7 +114,6 @@ export default function Invitation() {
         </div>
       </Section>
 
-    
       {/* INFORMACIÓN */}
       <Section id="info">
         <Reveal>
