@@ -35,7 +35,7 @@ function Section({
   id?: string;
 }) {
   return (
-    <section id={id} className={relative px-6 py-20 sm:py-28 ${className}}>
+    <section id={id} className={`relative px-6 py-20 sm:py-28 ${className}`}>
       <div className="mx-auto max-w-3xl">{children}</div>
     </section>
   );
