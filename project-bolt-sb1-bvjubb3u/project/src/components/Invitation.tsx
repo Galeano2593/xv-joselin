@@ -90,7 +90,7 @@ export default function Invitation() {
         <Reveal className="text-center">
           <Ornament />
           <h2 className="mt-6 font-serif text-3xl font-light text-amber-50 sm:text-4xl">
-            Faltan para celebrar juntos...
+            Cuenta regresiva...
           </h2>
         </Reveal>
         <div className="mt-12">
@@ -106,7 +106,7 @@ export default function Invitation() {
             Mis Recuerdos
           </h2>
           <p className="mt-3 font-sans-lux text-xs uppercase tracking-[0.3em] text-amber-200/50">
-            Momentos que atesoro
+            Lindos Momentos
           </p>
         </Reveal>
         <div className="mt-12">
@@ -194,7 +194,7 @@ export default function Invitation() {
               Código de Vestimenta
             </h2>
             <p className="mt-3 font-serif text-3xl italic text-gold-gradient sm:text-4xl">
-              Elegante
+             Guapos y Divinas
             </p>
           </div>
         </Reveal>
