@@ -18,9 +18,9 @@ export const eventData = {
     "/FOTO 6.jpeg",
   ],
   reservedColors: [
-    { name: "Beige", hex: "#E8DCC8" },
-    { name: "Champagne", hex: "#D4BFA0" },
-    { name: "Dorado", hex: "#C9A961" },
+    { name: "Beige", hex: "#f0d6bb" },
+    { name: "Champagne", hex: "#f7e7ce" },
+    { name: "Dorado", hex: "#cfb53b" },
     { name: "Terracota", hex: "#E35336" },
   ],
 };
