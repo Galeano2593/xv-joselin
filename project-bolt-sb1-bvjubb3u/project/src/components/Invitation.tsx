@@ -113,6 +113,7 @@ export default function Invitation() {
         </div>
       </Section>
 
+    
       {/* INFORMACIÓN */}
       <Section id="info">
         <Reveal>
@@ -123,6 +124,22 @@ export default function Invitation() {
             </h2>
 
             <div className="mt-10 space-y-8">
+              {/* FECHA */}
+              <div>
+                <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border border-amber-300/30 bg-amber-300/5">
+                  <Calendar className="h-6 w-6 text-amber-300" />
+                </div>
+                <p className="font-sans-lux text-[10px] uppercase tracking-[0.3em] text-amber-200/50">
+                  Fecha
+                </p>
+                <p className="mt-2 font-serif text-2xl text-gold-gradient">
+                  {eventData.eventDateLabel}
+                </p>
+              </div>
+
+              <div className="mx-auto h-px w-16 bg-amber-400/20" />
+
+              {/* HORA */}
               <div>
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border border-amber-300/30 bg-amber-300/5">
                   <Clock className="h-6 w-6 text-amber-300" />
@@ -137,6 +154,7 @@ export default function Invitation() {
 
               <div className="mx-auto h-px w-16 bg-amber-400/20" />
 
+              {/* LUGAR */}
               <div>
                 <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full border border-amber-300/30 bg-amber-300/5">
                   <MapPin className="h-6 w-6 text-amber-300" />
