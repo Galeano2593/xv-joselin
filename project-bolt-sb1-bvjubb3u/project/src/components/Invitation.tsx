@@ -3,7 +3,6 @@ import {
   Calendar,
   Clock,
   MapPin,
-  Shirt,
   Gift,
   Sparkles,
   Heart,
@@ -36,7 +35,7 @@ function Section({
   id?: string;
 }) {
   return (
-    <section id={id} className={`relative px-6 py-20 sm:py-28 ${className}`}>
+    <section id={id} className={relative px-6 py-20 sm:py-28 ${className}}>
       <div className="mx-auto max-w-3xl">{children}</div>
     </section>
   );
@@ -90,7 +89,7 @@ export default function Invitation() {
         <Reveal className="text-center">
           <Ornament />
           <h2 className="mt-6 font-serif text-3xl font-light text-amber-50 sm:text-4xl">
-            Cuenta regresiva...
+            Faltan para celebrar juntos...
           </h2>
         </Reveal>
         <div className="mt-12">
@@ -106,7 +105,7 @@ export default function Invitation() {
             Mis Recuerdos
           </h2>
           <p className="mt-3 font-sans-lux text-xs uppercase tracking-[0.3em] text-amber-200/50">
-            Lindos Momentos
+            Momentos que atesoro
           </p>
         </Reveal>
         <div className="mt-12">
@@ -187,14 +186,43 @@ export default function Invitation() {
       <Section id="dresscode">
         <Reveal>
           <div className="rounded-3xl border border-amber-300/20 bg-amber-300/5 p-8 text-center backdrop-blur-sm sm:p-12">
-            <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full border border-amber-300/30 bg-amber-300/5">
-              <Shirt className="h-7 w-7 text-amber-300" />
+            
+            {/* Contenedor de las dos imágenes PNG (Traje y Vestido) */}
+            <div className="mx-auto mb-6 flex items-center justify-center gap-6">
+              {/* Imagen Traje Hombre */}
+              <div className="flex flex-col items-center gap-2">
+                <div className="flex h-24 w-24 items-center justify-center rounded-full border border-amber-300/30 bg-amber-300/5 p-3 shadow-md">
+                  <img 
+                    src="/Traje.png" 
+                    alt="Traje de hombre" 
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <span className="font-sans-lux text-[10px] uppercase tracking-[0.2em] text-amber-200/70">
+                  Caballeros
+                </span>
+              </div>
+
+              {/* Imagen Vestido Mujer */}
+              <div className="flex flex-col items-center gap-2">
+                <div className="flex h-24 w-24 items-center justify-center rounded-full border border-amber-300/30 bg-amber-300/5 p-3 shadow-md">
+                  <img 
+                    src="/Vestido.png" 
+                    alt="Vestido de mujer" 
+                    className="max-h-full max-w-full object-contain"
+                  />
+                </div>
+                <span className="font-sans-lux text-[10px] uppercase tracking-[0.2em] text-amber-200/70">
+                  Damas
+                </span>
+              </div>
             </div>
+
             <h2 className="font-serif text-2xl font-light text-amber-50 sm:text-3xl">
               Código de Vestimenta
             </h2>
             <p className="mt-3 font-serif text-3xl italic text-gold-gradient sm:text-4xl">
-             Guapos y Divinas
+              Elegante
             </p>
           </div>
         </Reveal>
