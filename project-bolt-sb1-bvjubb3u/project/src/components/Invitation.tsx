@@ -1,3 +1,4 @@
+import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import {
   Clock,
@@ -42,6 +43,18 @@ function Section({
 }
 
 export default function Invitation() {
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+  useEffect(() => {
+    // Al montarse la vista de la invitación (tras abrir la tarjeta), reproducimos la música
+    if (audioRef.current) {
+      audioRef.current.volume = 0.8; // Ajusta el volumen entre 0.0 y 1.0 si lo deseas
+      audioRef.current.play().catch((err) => {
+        console.log("Auto-play prevenido por el navegador:", err);
+      });
+    }
+  }, []);
+
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -49,6 +62,9 @@ export default function Invitation() {
       transition={{ duration: 1 }}
       className="relative min-h-screen bg-[#0f0d0a]"
     >
+      {/* Reproductor invisible de fondo */}
+      <audio ref={audioRef} src="/chiquitita.mp3" preload="auto" loop />
+
       <GoldenParticles density={40} />
 
       {/* PRESENTACIÓN */}
@@ -199,15 +215,15 @@ export default function Invitation() {
                 transition={{ delay: i * 0.12, type: "spring", stiffness: 150 }}
                 className="flex flex-col items-center gap-3"
               >
-                  <div
-                    className="h-20 w-20 rounded-full shadow-lg ring-2 ring-amber-300/30 ring-offset-2 ring-offset-[#0f0d0a]"
-                    style={{ backgroundColor: c.hex }}
-                  />
-                  <span className="font-sans-lux text-[10px] uppercase tracking-[0.2em] text-amber-200/70">
-                    {c.name}
-                  </span>
-                </motion.div>
-              ))}
+                <div
+                  className="h-20 w-20 rounded-full shadow-lg ring-2 ring-amber-300/30 ring-offset-2 ring-offset-[#0f0d0a]"
+                  style={{ backgroundColor: c.hex }}
+                />
+                <span className="font-sans-lux text-[10px] uppercase tracking-[0.2em] text-amber-200/70">
+                  {c.name}
+                </span>
+              </motion.div>
+            ))}
           </div>
         </Reveal>
       </Section>
