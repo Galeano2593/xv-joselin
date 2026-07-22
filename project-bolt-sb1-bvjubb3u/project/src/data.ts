@@ -10,10 +10,12 @@ export const eventData = {
   whatsappMessage:
     "¡Hola! Soy ___ y confirmo mi asistencia a los XV años de Joselin Mairel. Seremos ___ personas.",
   slideshow: [
-    "https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "https://images.pexels.com/photos/1844012/pexels-photo-1844012.jpeg?auto=compress&cs=tinysrgb&w=1200",
+  "/FOTO 1.jpeg",
+    "/FOTO 2.jpeg",
+    "/FOTO 3.jpeg",
+    "/FOTO 4.jpeg",
+    "/FOTO 5.jpeg",
+    "/FOTO 6.jpeg",
   ],
   reservedColors: [
     { name: "Beige", hex: "#E8DCC8" },
