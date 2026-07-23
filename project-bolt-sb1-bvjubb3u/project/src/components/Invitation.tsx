@@ -89,7 +89,7 @@ export default function Invitation() {
         <Reveal className="text-center">
           <Ornament />
           <h2 className="mt-6 font-serif text-3xl font-light text-amber-50 sm:text-4xl">
-            Faltan para celebrar juntos...
+            Cuenta  regresiva...
           </h2>
         </Reveal>
         <div className="mt-12">
@@ -102,10 +102,10 @@ export default function Invitation() {
         <Reveal className="text-center">
           <Ornament />
           <h2 className="mt-6 font-serif text-3xl font-light text-amber-50 sm:text-4xl">
-            Mis Recuerdos
+            Lindos Momentos
           </h2>
           <p className="mt-3 font-sans-lux text-xs uppercase tracking-[0.3em] text-amber-200/50">
-            Momentos que atesoro
+            
           </p>
         </Reveal>
         <div className="mt-12">
@@ -119,7 +119,7 @@ export default function Invitation() {
           <div className="rounded-3xl border border-amber-300/20 bg-gradient-to-b from-amber-300/10 to-transparent p-8 text-center backdrop-blur-sm sm:p-12">
             <Ornament />
             <h2 className="mt-6 font-serif text-3xl font-light text-amber-50 sm:text-4xl">
-              La Celebración
+              Celebremos Juntos Este Día Especial
             </h2>
 
             <div className="mt-10 space-y-8">
@@ -222,7 +222,7 @@ export default function Invitation() {
               Código de Vestimenta
             </h2>
             <p className="mt-3 font-serif text-3xl italic text-gold-gradient sm:text-4xl">
-              Elegante
+              Guapos y Divinas
             </p>
           </div>
         </Reveal>
@@ -272,14 +272,14 @@ export default function Invitation() {
               <Gift className="h-16 w-16 text-amber-300" />
             </motion.div>
             <h2 className="font-serif text-2xl font-light text-amber-50 sm:text-3xl">
-              Lluvia de Sobres
+              Regalos
             </h2>
             <p className="mx-auto mt-5 max-w-sm font-serif text-lg italic leading-relaxed text-amber-100/80">
-              Tu presencia será mi mejor regalo.
+              Tu serás partícipe de mi próximmo sueño
               <br />
-              Pero si deseas tener un detalle conmigo,
+              
               <br />
-              Lluvia de Sobres.
+              ¡Lluvia de Sobres!
             </p>
           </div>
         </Reveal>
@@ -324,7 +324,7 @@ export default function Invitation() {
 
           <Reveal delay={0.3}>
             <p className="mx-auto mt-6 max-w-md font-serif text-lg font-light italic leading-relaxed text-amber-100/80">
-              Tu presencia hará que esta noche sea inolvidable.
+              Tu presencia hará que este día sea inolvidable.
             </p>
           </Reveal>
 
