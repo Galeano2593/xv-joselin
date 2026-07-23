@@ -59,15 +59,16 @@ export default function Invitation() {
           </p>
         </Reveal>
 
-        <Reveal delay={0.3}>
-          <p className="mx-auto mt-8 max-w-md font-serif text-xl font-light italic leading-relaxed text-amber-50/90">
-            Hay momentos que solo suceden una vez en la vida.
-            <br />
-            Hoy quiero compartir contigo uno de los más especiales.
+        <Reveal delay={0.2}>
+          <p className="mt-8 font-serif text-xl font-light text-amber-100 sm:text-2xl">
+            Bernarda Guzmán
+          </p>
+          <p className="mt-2 font-sans-lux text-xs uppercase tracking-[0.25em] text-amber-200/60">
+            Tiene el honor de invitarte a celebrar los XV años de su amada hija
           </p>
         </Reveal>
 
-        <Reveal delay={0.6}>
+        <Reveal delay={0.4}>
           <Ornament />
         </Reveal>
 
@@ -76,12 +77,20 @@ export default function Invitation() {
           whileInView={{ opacity: 1, scale: 1, y: 0 }}
           viewport={{ once: true, amount: 0.5 }}
           transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-10 font-serif text-3xl font-light leading-tight text-gold-gradient sm:text-5xl"
+          className="mt-8 font-serif text-3xl font-light leading-tight text-gold-gradient sm:text-5xl"
         >
           Joselin Mairel
           <br />
           Castro Guzmán
         </motion.h1>
+
+        <Reveal delay={0.6}>
+          <p className="mx-auto mt-8 max-w-md font-serif text-lg font-light italic leading-relaxed text-amber-50/90">
+            Hay momentos que solo suceden una vez en la vida.
+            <br />
+            Hoy quiero compartir contigo uno de los más especiales.
+          </p>
+        </Reveal>
       </Section>
 
       {/* CUENTA REGRESIVA */}
@@ -89,7 +98,7 @@ export default function Invitation() {
         <Reveal className="text-center">
           <Ornament />
           <h2 className="mt-6 font-serif text-3xl font-light text-amber-50 sm:text-4xl">
-            Cuenta  regresiva...
+            Cuenta regresiva...
           </h2>
         </Reveal>
         <div className="mt-12">
@@ -105,7 +114,7 @@ export default function Invitation() {
             Lindos Momentos
           </h2>
           <p className="mt-3 font-sans-lux text-xs uppercase tracking-[0.3em] text-amber-200/50">
-            
+            Momentos inolvidables
           </p>
         </Reveal>
         <div className="mt-12">
@@ -275,9 +284,8 @@ export default function Invitation() {
               Regalos
             </h2>
             <p className="mx-auto mt-5 max-w-sm font-serif text-lg italic leading-relaxed text-amber-100/80">
-              Tu serás partícipe de mi próximmo sueño
+              Tú serás partícipe de mi próximo sueño.
               <br />
-              
               <br />
               ¡Lluvia de Sobres!
             </p>
