@@ -114,7 +114,7 @@ export default function Invitation() {
             Lindos Momentos
           </h2>
           <p className="mt-3 font-sans-lux text-xs uppercase tracking-[0.3em] text-amber-200/50">
-            Momentos inolvidables
+            
           </p>
         </Reveal>
         <div className="mt-12">
